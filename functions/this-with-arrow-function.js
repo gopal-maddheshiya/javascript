@@ -12,12 +12,12 @@ const student = {
   },
   getInfo1: function () {
     setTimeout(() => {
-      console.log(this); // Student
+      console.log(this); // Student (because in arrow function checks its parent this)
     }, 2000);
   },
   getInfo2: function () {
     setTimeout(function () {
-      console.log(this); // Window
+      console.log(this); // Window (because setTimeout is window object)
     }, 2000);
   }
 }
