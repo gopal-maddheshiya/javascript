@@ -1,5 +1,10 @@
-let months = ["january", "july", "march", "august"];
+// Generate a random number between 1 to 100.
 
-console.log(months.splice(0, 2, "july", "june"));
+let random = Math.floor(Math.random() * 100) + 1;
+console.log(random);
 
-console.log(months);
+
+// Generate a random number between 1 to 5.
+
+let random1 = Math.floor(Math.random() * 5) + 1;
+console.log(random1);

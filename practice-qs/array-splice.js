@@ -1,3 +1,5 @@
-let lang = ["c", "c++", "html", "javascript", "python", "c#", "php", "java"];
+let months = ["january", "july", "march", "august"];
 
-console.log(lang.reverse().indexOf("javascript"));
+console.log(months.splice(0, 2, "july", "june"));
+
+console.log(months);
