@@ -1,4 +1,4 @@
-// Qs. Declare your first name as a string and print its first character.
+// Qs. Declare your first name as a string and print its first and last character.
 
 let resultHTML = document.getElementById("result");
 let checkButton = document.getElementById("checkBtn");
@@ -7,6 +7,6 @@ checkButton.addEventListener("click", function () {
 
   let name = prompt(`Enter your name`);
 
-  resultHTML.textContent = `First charcter of the string is ${name.charAt(0)}`;
+  resultHTML.textContent = `First charcter of the string is ${name.charAt(0)} and the last character of the string is ${name.charAt(name.length-1)}`;
   
 })
